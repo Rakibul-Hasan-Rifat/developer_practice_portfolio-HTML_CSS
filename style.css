@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+}
+
+section#welcome_section,
+section#mid_section {
+    display: flex;
+    align-items: center;
+}
+
+section#welcome_section {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+
+.first-div {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.second-div {
+    margin-right: 100px;
+}
+
+.text {
+    width: 50%;
+}
+
+.text h1,
+h2 {
+    line-height: 100px;
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.text h2,
+#last_section h1 {
+    font-size: 40px;
+}
+
+.text h4 {
+    margin: 15px 0px;
+    line-height: 30px;
+}
+
+.text p {
+    text-align: justify;
+    line-height: 25px;
+}
+
+.text span {
+    font-size: 40px;
+    color: rgba(241, 144, 54, 0.959);
+}
+
+.text a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: rgb(230, 102, 17);
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.pic {
+    width: 40%;
+}
+
+.pic img {
+    width: 100%;
+}
+
+section#mid_section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 80px;
+}
+
+#last_section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+#last_sec_main {
+    display: flex;
+    /* margin: 0 100px 50px; */
+}
+
+#last_section>h1 {
+    margin: 40px 0;
+}
+
+#last_sec_main div h4 {
+    margin: 15px 0
+}
+
+#last_sec_main div p {
+    text-align: justify;
+}
+
+#last_sec_main_left {
+    width: 50%;
+    margin: 0 0 50px 50px;
+    padding: 40px;
+    border-radius: 7px;
+    border-left: 8px solid #fa6b58;
+    box-shadow: 3px 3px 17px 5px grey;
+}
+
+#last_sec_main_right {
+    width: 50%;
+    margin: 0 50px 50px 50px;
+    padding: 8px;
+    padding: 40px;
+    border-radius: 7px;
+    border-left: 8px solid rgb(11, 145, 207);
+    box-shadow: 3px 3px 17px 5px grey;
+}
